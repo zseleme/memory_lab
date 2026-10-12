@@ -12,3 +12,5 @@
 {"schema_version":1,"ts":"2026-10-12T20:58:55Z","task":"T-20261012-core-semantic","event":"status_change","from":"ready","to":"done"}
 {"acceptance_record_digest":"sha256:90079d57ccdadbe5f5e289fe3d3d07d4147d32d8d55f79544894f82c69b0d96e","acceptance_tier":1,"attempt_id":"db5259c7-4140-420a-8f77-97dcee774a86","author":"operator","event":"accepted","schema_version":1,"task":"T-20261012-core-working","ts":"2026-10-12T21:03:17Z"}
 {"schema_version":1,"ts":"2026-10-12T21:03:27Z","task":"T-20261012-core-working","event":"status_change","from":"ready","to":"done"}
+{"acceptance_record_digest":"sha256:2ae24b0d71ee4dbc807479075ac64d0634710accd707e74795bb4af5a3344e27","acceptance_tier":1,"attempt_id":"023bb778-25a1-4613-a1d7-f631f9968b12","author":"operator","event":"accepted","schema_version":1,"task":"T-20261012-interface-mcp","ts":"2026-10-12T21:07:08Z"}
+{"schema_version":1,"ts":"2026-10-12T21:07:19Z","task":"T-20261012-interface-mcp","event":"status_change","from":"ready","to":"done"}
