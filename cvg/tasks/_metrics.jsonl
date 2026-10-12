@@ -18,3 +18,5 @@
 {"schema_version":1,"ts":"2026-10-12T21:11:22Z","task":"T-20261012-interface-hook","event":"status_change","from":"ready","to":"done"}
 {"acceptance_record_digest":"sha256:2f5bb034e3b4e1d9d677a8c5596704b6d9d7221beb7c9554df06aa8880ea05ea","acceptance_tier":1,"attempt_id":"6adf237f-c364-4fe4-af99-bc8ff69dba15","author":"operator","event":"accepted","schema_version":1,"task":"T-20261012-ui-dashboard","ts":"2026-10-12T21:16:53Z"}
 {"schema_version":1,"ts":"2026-10-12T21:17:05Z","task":"T-20261012-ui-dashboard","event":"status_change","from":"ready","to":"done"}
+{"acceptance_record_digest":"sha256:9fe88f41302a4f40a3ba8be47de093756b453835ce7753c1b051bf7b3cc02afe","acceptance_tier":1,"attempt_id":"79bcfe46-ad08-4809-b290-0c52bc03810d","author":"operator","event":"accepted","schema_version":1,"task":"T-20261012-ui-canvas-graph","ts":"2026-10-12T21:20:51Z"}
+{"schema_version":1,"ts":"2026-10-12T21:21:03Z","task":"T-20261012-ui-canvas-graph","event":"status_change","from":"ready","to":"done"}
