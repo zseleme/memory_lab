@@ -1,0 +1,135 @@
+{
+  "schema": "ObjectionLog/v1",
+  "adversary": {
+    "engine_id": "gemini",
+    "model": "gemini-3.1-pro",
+    "family": "google"
+  },
+  "verdict": "PASS",
+  "fork": {
+    "choice": "B",
+    "reason": "Task-driven decomposition via Task-Spec six-tier sizing engine"
+  },
+  "objections": [
+    {
+      "id": "OBJ-001",
+      "swimlane": "core",
+      "target": "leg-02-semantic",
+      "severity": "high",
+      "summary": "Synchronous graph consolidation on large interaction traces risks exceeding the 500ms response window.",
+      "proposal": {
+        "disposition": "FIX",
+        "recommendation": "Decouple graph consolidation into an asynchronous background phase triggered post-settlement."
+      },
+      "resolution": {
+        "disposition": "FIX",
+        "decided_by": "Zaiden",
+        "decided_at": "2026-10-12T17:00:00Z",
+        "owner": "Zaiden",
+        "notes": "Addressed in architecture: graph updates run asynchronously post-settlement.",
+        "risk_residual": "Resolved in plan architecture"
+      }
+    },
+    {
+      "id": "OBJ-002",
+      "swimlane": "interface",
+      "target": "leg-01-mcp-server",
+      "severity": "medium",
+      "summary": "Large memory history retrieval over stdio could exceed model context token allocations.",
+      "proposal": {
+        "disposition": "FIX",
+        "recommendation": "Enforce strict working memory budget ceiling before emitting JSON-RPC tool responses."
+      },
+      "resolution": {
+        "disposition": "FIX",
+        "decided_by": "Zaiden",
+        "decided_at": "2026-10-12T17:00:00Z",
+        "owner": "Zaiden",
+        "notes": "Bound to 4000 token working memory ceiling in R-4 and Leg 03.",
+        "risk_residual": "Resolved in plan architecture"
+      }
+    }
+  ],
+  "inputs": [
+    {
+      "path": "core\\_lane.md",
+      "sha256": "b092f9c828acc791f2f4d32f27bb1d5b2ada75b7a1faeb31d3ae29c90a311b54"
+    },
+    {
+      "path": "core/_lane.md",
+      "sha256": "b092f9c828acc791f2f4d32f27bb1d5b2ada75b7a1faeb31d3ae29c90a311b54"
+    },
+    {
+      "path": "core\\leg-01-storage.md",
+      "sha256": "50cd87adb433d90aaf51b1d296403ccebd26425b7cddf9606a12d0a086fc24b3"
+    },
+    {
+      "path": "core/leg-01-storage.md",
+      "sha256": "50cd87adb433d90aaf51b1d296403ccebd26425b7cddf9606a12d0a086fc24b3"
+    },
+    {
+      "path": "core\\leg-02-semantic.md",
+      "sha256": "f035827cba9aa54393f25379898b15aa8a544917ec452ff7b63389bc7ead81a9"
+    },
+    {
+      "path": "core/leg-02-semantic.md",
+      "sha256": "f035827cba9aa54393f25379898b15aa8a544917ec452ff7b63389bc7ead81a9"
+    },
+    {
+      "path": "core\\leg-03-working.md",
+      "sha256": "af4a5c5b44591b109867efae77c2035374ab7edfda48f09827ac42ffcde26ec2"
+    },
+    {
+      "path": "core/leg-03-working.md",
+      "sha256": "af4a5c5b44591b109867efae77c2035374ab7edfda48f09827ac42ffcde26ec2"
+    },
+    {
+      "path": "interface\\_lane.md",
+      "sha256": "448a665ecd0804a87e0c3d46375ee34e978a7d4a193f8b90c195f787d1f6ab16"
+    },
+    {
+      "path": "interface/_lane.md",
+      "sha256": "448a665ecd0804a87e0c3d46375ee34e978a7d4a193f8b90c195f787d1f6ab16"
+    },
+    {
+      "path": "interface\\leg-01-mcp-server.md",
+      "sha256": "302ac5c9f3d1718d849c92ca10ef52ef9d735eaea5847222717c1212cbedfa1d"
+    },
+    {
+      "path": "interface/leg-01-mcp-server.md",
+      "sha256": "302ac5c9f3d1718d849c92ca10ef52ef9d735eaea5847222717c1212cbedfa1d"
+    },
+    {
+      "path": "interface\\leg-02-converge-hook.md",
+      "sha256": "06957f4cfc7a504e28e20dac80840acef905c9b0c71cda947a64eee97d651159"
+    },
+    {
+      "path": "interface/leg-02-converge-hook.md",
+      "sha256": "06957f4cfc7a504e28e20dac80840acef905c9b0c71cda947a64eee97d651159"
+    },
+    {
+      "path": "ui\\_lane.md",
+      "sha256": "f53b7e276ab5f19b320c6c0e8c8185dcc680786262851eca8d27ceca52200e03"
+    },
+    {
+      "path": "ui/_lane.md",
+      "sha256": "f53b7e276ab5f19b320c6c0e8c8185dcc680786262851eca8d27ceca52200e03"
+    },
+    {
+      "path": "ui\\leg-01-dashboard-shell.md",
+      "sha256": "1af382845c6514d3738b5da26b9955c8f3ca803258049bdfc8c8e54d37af70ac"
+    },
+    {
+      "path": "ui/leg-01-dashboard-shell.md",
+      "sha256": "1af382845c6514d3738b5da26b9955c8f3ca803258049bdfc8c8e54d37af70ac"
+    },
+    {
+      "path": "ui\\leg-02-graph-explorer.md",
+      "sha256": "6ed10cec89913008d7bd686bd511d0b1f276fe22d6668ad19eec56c051ab5ef3"
+    },
+    {
+      "path": "ui/leg-02-graph-explorer.md",
+      "sha256": "6ed10cec89913008d7bd686bd511d0b1f276fe22d6668ad19eec56c051ab5ef3"
+    }
+  ]
+}

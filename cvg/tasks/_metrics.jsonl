@@ -1,0 +1,8 @@
+{"schema_version":1,"ts":"2026-10-12T20:15:08Z","task":"T-20261012-test-task","event":"created","author":"zaiden","source":"test note","effort":"S","agent":"zaiden"}
+{"schema_version":1,"ts":"2026-10-12T20:16:22Z","task":"T-20261012-core-storage","event":"created","author":"zaiden","source":"cvg/swimlanes/core/leg-01-storage.md","effort":"S","agent":"zaiden"}
+{"schema_version":1,"ts":"2026-10-12T20:16:33Z","task":"T-20261012-core-semantic","event":"created","author":"zaiden","source":"cvg/swimlanes/core/leg-02-semantic.md","effort":"S","agent":"zaiden"}
+{"schema_version":1,"ts":"2026-10-12T20:16:36Z","task":"T-20261012-core-working","event":"created","author":"zaiden","source":"cvg/swimlanes/core/leg-03-working.md","effort":"S","agent":"zaiden"}
+{"schema_version":1,"ts":"2026-10-12T20:16:40Z","task":"T-20261012-interface-mcp","event":"created","author":"zaiden","source":"cvg/swimlanes/interface/leg-01-mcp-server.md","effort":"S","agent":"zaiden"}
+{"schema_version":1,"ts":"2026-10-12T20:16:44Z","task":"T-20261012-interface-hook","event":"created","author":"zaiden","source":"cvg/swimlanes/interface/leg-02-converge-hook.md","effort":"S","agent":"zaiden"}
+{"schema_version":1,"ts":"2026-10-12T20:16:50Z","task":"T-20261012-ui-dashboard","event":"created","author":"zaiden","source":"cvg/swimlanes/ui/leg-01-dashboard-shell.md","effort":"S","agent":"zaiden"}
+{"schema_version":1,"ts":"2026-10-12T20:16:58Z","task":"T-20261012-ui-canvas-graph","event":"created","author":"zaiden","source":"cvg/swimlanes/ui/leg-02-graph-explorer.md","effort":"S","agent":"zaiden"}
