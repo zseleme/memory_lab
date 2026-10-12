@@ -1,0 +1,13 @@
+__pycache__/
+*.py[cod]
+*$py.class
+*.db
+*.db-wal
+*.db-shm
+.pytest_cache/
+node_modules/
+dist/
+.taskspec/acceptance/
+cvg/receipts/.cvg-ignore-probe.json
+cvg/execution/.cvg-ignore-probe/
+cvg/loop/.cvg-ignore-probe/
