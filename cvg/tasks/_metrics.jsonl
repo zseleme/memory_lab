@@ -6,3 +6,5 @@
 {"schema_version":1,"ts":"2026-10-12T20:16:44Z","task":"T-20261012-interface-hook","event":"created","author":"zaiden","source":"cvg/swimlanes/interface/leg-02-converge-hook.md","effort":"S","agent":"zaiden"}
 {"schema_version":1,"ts":"2026-10-12T20:16:50Z","task":"T-20261012-ui-dashboard","event":"created","author":"zaiden","source":"cvg/swimlanes/ui/leg-01-dashboard-shell.md","effort":"S","agent":"zaiden"}
 {"schema_version":1,"ts":"2026-10-12T20:16:58Z","task":"T-20261012-ui-canvas-graph","event":"created","author":"zaiden","source":"cvg/swimlanes/ui/leg-02-graph-explorer.md","effort":"S","agent":"zaiden"}
+{"acceptance_record_digest":"sha256:cb094321578148014cb29b23a3d3c8ac98344d94db5f5fefff6c728b65b0a7dc","acceptance_tier":1,"attempt_id":"1936e928-0426-4ab0-b74d-193e585c1c65","author":"operator","event":"accepted","schema_version":1,"task":"T-20261012-core-storage","ts":"2026-10-12T20:48:13Z"}
+{"schema_version":1,"ts":"2026-10-12T20:51:04Z","task":"T-20261012-core-storage","event":"status_change","from":"ready","to":"done"}
