@@ -8,3 +8,5 @@
 {"schema_version":1,"ts":"2026-10-12T20:16:58Z","task":"T-20261012-ui-canvas-graph","event":"created","author":"zaiden","source":"cvg/swimlanes/ui/leg-02-graph-explorer.md","effort":"S","agent":"zaiden"}
 {"acceptance_record_digest":"sha256:cb094321578148014cb29b23a3d3c8ac98344d94db5f5fefff6c728b65b0a7dc","acceptance_tier":1,"attempt_id":"1936e928-0426-4ab0-b74d-193e585c1c65","author":"operator","event":"accepted","schema_version":1,"task":"T-20261012-core-storage","ts":"2026-10-12T20:48:13Z"}
 {"schema_version":1,"ts":"2026-10-12T20:51:04Z","task":"T-20261012-core-storage","event":"status_change","from":"ready","to":"done"}
+{"acceptance_record_digest":"sha256:7d0bc6aee4f2db4517012286a37ccb41438f78df4504d41fa4708d52f72daa46","acceptance_tier":1,"attempt_id":"9b534e22-7816-4fa6-a918-bc96fe7b852c","author":"operator","event":"accepted","schema_version":1,"task":"T-20261012-core-semantic","ts":"2026-10-12T20:58:44Z"}
+{"schema_version":1,"ts":"2026-10-12T20:58:55Z","task":"T-20261012-core-semantic","event":"status_change","from":"ready","to":"done"}
