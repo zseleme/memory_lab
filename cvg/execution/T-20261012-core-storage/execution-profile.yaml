@@ -11,7 +11,7 @@
         "epoch_change"
       ]
     },
-    "epoch": "T-20261012-core-storage@342687a03fbf",
+    "epoch": "T-20261012-core-storage@172cf4168395",
     "grants": [
       {
         "capability": "fs.read",
@@ -30,7 +30,7 @@
         "granted": true,
         "phase": "implement",
         "scope": [
-          "memory_lab/storage/engine.py",
+          "memory_lab/storage/",
           "tests/test_storage.py"
         ]
       },
@@ -53,7 +53,7 @@
         "granted": true,
         "phase": "settle",
         "scope": [
-          "memory_lab/storage/engine.py",
+          "memory_lab/storage/",
           "tests/test_storage.py"
         ]
       },
@@ -302,7 +302,7 @@
     "id": "T-20261012-core-storage",
     "spec_ref": {
       "path": "cvg/tasks/T-20261012-core-storage.md",
-      "sha256": "342687a03fbf04f569cda27c10664067ad9e0f49eed7fe4cb193c84ee0b9486b"
+      "sha256": "172cf4168395d0dfa1da7509a4080f32f615db82060c9b65f0580f6b479d46a2"
     }
   },
   "topology": {

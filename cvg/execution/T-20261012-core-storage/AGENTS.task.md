@@ -4,7 +4,7 @@
 
 - **Spec (canonical):** `cvg/tasks/T-20261012-core-storage.md`
 - **Contract:** `cvg/execution/T-20261012-core-storage/execution-profile.yaml`
-- **Epoch:** `T-20261012-core-storage@342687a03fbf`
+- **Epoch:** `T-20261012-core-storage@172cf4168395`
 
 ## Goal
 
@@ -12,7 +12,7 @@ Provide a robust StorageEngine class backed by SQLite with WAL mode enabled that
 
 ## You may write ONLY these paths
 
-- `memory_lab/storage/engine.py`
+- `memory_lab/storage/`
 - `tests/test_storage.py`
 
 **Never touch:**

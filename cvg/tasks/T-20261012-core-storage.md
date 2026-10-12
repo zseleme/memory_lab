@@ -13,7 +13,7 @@ supersedes: (none)
 
 touches_paths: []
 creates_paths:
-  - memory_lab/storage/engine.py
+  - memory_lab/storage/
   - tests/test_storage.py
 source_note: "cvg/swimlanes/core/leg-01-storage.md"
 created: 2026-10-12T20:15:08Z
@@ -30,12 +30,12 @@ tracker_ref: (none)
 execution_backend: any
 signed_off: true
 signed_off_by: operator
-signed_off_at: 2026-10-12T20:25:09Z
+signed_off_at: 2026-10-12T20:37:30Z
 accepted: false
 accepted_by: (none)
 accepted_at: (none)
 evidence_refs: []
-signed_off_sig: hmac-sha256-v3:3d32e54d:3a4949ef53b5ee8a00f032c5928e865a9f40d46dd7fb8227527079e089b4de11
+signed_off_sig: hmac-sha256-v3:3d32e54d:bf663dc1cc2bb8f3343f961d88313c3a31858431a2cb4deeaf9a351177fe6694
 ---
 
 # "Implement SQLite episodic storage engine and database schema"
