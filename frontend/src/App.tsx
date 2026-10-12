@@ -1,4 +1,6 @@
 import React, { useState } from 'react';
+import { AmberCascades } from './components/AmberCascades';
+import { GraphExplorer } from './components/GraphExplorer';
 
 // LiquidGlass interactive button component with SVG displacement filter
 export const LiquidGlassButton: React.FC<{
@@ -45,7 +47,10 @@ export default function App() {
   const [skillsCount, setSkillsCount] = useState<number>(12);
 
   return (
-    <div className="min-h-screen bg-[#0a0a0a] text-neutral-200 relative selection:bg-amber-500/20 selection:text-amber-200">
+    <div className="min-h-screen bg-[#0a0a0a] text-neutral-200 relative selection:bg-amber-500/20 selection:text-amber-200 overflow-x-hidden">
+      {/* Background Amber Cascades Particle Simulation */}
+      <AmberCascades />
+
       {/* SVG LiquidGlass filter definition */}
       <svg className="hidden" aria-hidden="true">
         <defs>
@@ -231,7 +236,7 @@ export default function App() {
               <p className="text-neutral-400 text-xs mb-4">
                 Bidirectional concept edges with decay-weighted spreading activation queries.
               </p>
-              <div className="grid grid-cols-3 gap-3 font-mono text-xs">
+              <div className="grid grid-cols-3 gap-3 font-mono text-xs mb-6">
                 <div className="p-3 bg-neutral-900/30 rounded-lg border border-white/[0.04]">
                   <span className="text-amber-300">SQLite &lt;-&gt; WAL</span> (weight: 0.95)
                 </div>
@@ -242,6 +247,7 @@ export default function App() {
                   <span className="text-amber-300">MCP &lt;-&gt; Converge</span> (weight: 0.90)
                 </div>
               </div>
+              <GraphExplorer />
             </div>
           )}
 
