@@ -14,3 +14,5 @@
 {"schema_version":1,"ts":"2026-10-12T21:03:27Z","task":"T-20261012-core-working","event":"status_change","from":"ready","to":"done"}
 {"acceptance_record_digest":"sha256:2ae24b0d71ee4dbc807479075ac64d0634710accd707e74795bb4af5a3344e27","acceptance_tier":1,"attempt_id":"023bb778-25a1-4613-a1d7-f631f9968b12","author":"operator","event":"accepted","schema_version":1,"task":"T-20261012-interface-mcp","ts":"2026-10-12T21:07:08Z"}
 {"schema_version":1,"ts":"2026-10-12T21:07:19Z","task":"T-20261012-interface-mcp","event":"status_change","from":"ready","to":"done"}
+{"acceptance_record_digest":"sha256:7c876853af74e54cf5b915e1e339e37637845113865b026659065b49651fa69a","acceptance_tier":1,"attempt_id":"197e617f-2d8e-4835-b776-09cacab62bff","author":"operator","event":"accepted","schema_version":1,"task":"T-20261012-interface-hook","ts":"2026-10-12T21:11:11Z"}
+{"schema_version":1,"ts":"2026-10-12T21:11:22Z","task":"T-20261012-interface-hook","event":"status_change","from":"ready","to":"done"}
