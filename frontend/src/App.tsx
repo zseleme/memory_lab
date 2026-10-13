@@ -94,6 +94,8 @@ export default function App() {
               onClick={() => {
                 setWorkingTokens((prev) => Math.min(4000, prev + 250));
                 setEpisodesCount((prev) => prev + 1);
+                setSemanticNodesCount((prev) => prev + 1);
+                setSkillsCount((prev) => prev + 1);
               }}
             >
               + Ingest Episode
